@@ -1,4 +1,4 @@
-# React test
+# React basic exam
 
 ![alt](https://i.imgur.com/i2pmojo.gif)
 
