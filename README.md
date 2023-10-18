@@ -19,7 +19,7 @@ You have one hour to complete as many of the following requirments as possible. 
 
 Data should be fetched from this dummy endpoint `https://jsonplaceholder.typicode.com/todos`. You can use fetch, axios or any other method for fetching the information. This endpoint contains dummy data about a TODO list with this format:
 
-```json
+```
 {
 	userId: 1, //User id
 	id: 1, // TODO id
