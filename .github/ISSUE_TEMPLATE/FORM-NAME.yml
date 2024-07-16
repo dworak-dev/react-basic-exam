@@ -7,17 +7,13 @@ body:
   - type: markdown
     attributes:
       value: |
-        ### **User story**
-  - type: markdown
-    attributes:
-      value: |
         ### User story
   - type: input
     id: contact
     attributes:
-      label: Contact Details
-      description: How can we get in touch with you if we need more info?
-      placeholder: ex. email@example.com
+      label: User story
+      description: This input is important to understant why the task should be done. There is no point in doing a fix that serves no purpose to the final user.
+      placeholder: As a user I want to download a csv report...
     validations:
       required: false
   - type: textarea
