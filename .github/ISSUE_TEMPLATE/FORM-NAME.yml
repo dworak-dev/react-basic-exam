@@ -1,15 +1,17 @@
-name: Bug Report
-description: File a bug report.
-title: "[Bug]: "
-labels: ["bug", "triage"]
-projects: ["octo-org/1", "octo-org/44"]
-assignees:
-  - octocat
+name: fix
+description: Creates an issue of type fix, used to target simple changes or bugs.
+title: "fix: "
+labels: []
+projects: ["koble-mx/3"]
 body:
   - type: markdown
     attributes:
       value: |
-        Thanks for taking the time to fill out this bug report!
+        ### **User story**
+  - type: markdown
+    attributes:
+      value: |
+        ### User story
   - type: input
     id: contact
     attributes:
