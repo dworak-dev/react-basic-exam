@@ -4,59 +4,25 @@ title: "fix: "
 labels: []
 projects: ["koble-mx/3"]
 body:
-  - type: markdown
-    attributes:
-      value: |
-        ### User story
-  - type: input
-    id: contact
+  - type: textarea
+    id: user-story
     attributes:
       label: User story
       description: This input is important to understant why the task should be done. There is no point in doing a fix that serves no purpose to the final user.
       placeholder: As a user I want to download a csv report...
     validations:
-      required: false
+      required: true
   - type: textarea
-    id: what-happened
+    id: acceptance-criteria
     attributes:
-      label: What happened?
-      description: Also tell us, what did you expect to happen?
-      placeholder: Tell us what you see!
-      value: "A bug happened!"
+      label: Acceptance Criteria
+      description: Make sure to describe with great detail what should be done in this task to be marked as done. Anyone in the team should be able to read it and completely understand what do to.
+      placeholder: What should be accomplished?
     validations:
       required: true
-  - type: dropdown
-    id: version
-    attributes:
-      label: Version
-      description: What version of our software are you running?
-      options:
-        - 1.0.2 (Default)
-        - 1.0.3 (Edge)
-      default: 0
-    validations:
-      required: true
-  - type: dropdown
-    id: browsers
-    attributes:
-      label: What browsers are you seeing the problem on?
-      multiple: true
-      options:
-        - Firefox
-        - Chrome
-        - Safari
-        - Microsoft Edge
   - type: textarea
     id: logs
     attributes:
       label: Relevant log output
       description: Please copy and paste any relevant log output. This will be automatically formatted into code, so no need for backticks.
       render: shell
-  - type: checkboxes
-    id: terms
-    attributes:
-      label: Code of Conduct
-      description: By submitting this issue, you agree to follow our [Code of Conduct](https://example.com). 
-      options:
-        - label: I agree to follow this project's Code of Conduct
-          required: true
