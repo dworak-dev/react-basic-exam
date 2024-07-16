@@ -17,6 +17,7 @@ body:
     attributes:
       label: General Description
       description: A description to introduce the problem, also include any external resources.
+      placeholder: In order to properly download the csv file we must...
     validations:
       required: true
   - type: textarea
@@ -24,6 +25,6 @@ body:
     attributes:
       label: Acceptance Criteria
       description: Make sure to describe with great detail what should be done in this task to be marked as done. Anyone in the team should be able to read it and completely understand what do to.
-      placeholder: What should be accomplished?
+      placeholder: To mark the task as complete you must...
     validations:
       required: true
